@@ -1,0 +1,21 @@
+#owl {
+    width: 300px;
+    height: 200px;
+    transition: all 0.76s;
+}
+#owl:active {
+    width: 305px;
+    height: 203px;
+    /* transform: rotate(2.2deg); */
+    transition: all 0.36s;
+}
+#owl:not(:active) {
+    width: 300px;
+    height: 200px;
+    transition: all 0.26s;
+}
+
+#owls {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+}

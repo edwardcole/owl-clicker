@@ -1,0 +1,13 @@
+{
+    "name": "owl game",
+    "manifest_version": 3,
+    "version": "1",
+
+    "action": {
+        "default_title": "owl game",
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}
