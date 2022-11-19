@@ -1,0 +1,25 @@
+{
+    "name": "Hello, World!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+        "default_title": "owl game",
+        "default_icon": {
+            "16": "16.jpg",
+            "48": "48.jpg",
+            "128": "128.jpg"
+        },
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "16.jpg",
+        "48": "48.jpg",
+        "128": "128.jpg"
+    }
+  }

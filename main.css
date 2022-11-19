@@ -6,7 +6,7 @@
 #owl:active {
     width: 305px;
     height: 203px;
-    /* transform: rotate(2.2deg); */
+    /*  transform: rotate(2.2deg); */
     transition: all 0.36s;
 }
 #owl:not(:active) {
